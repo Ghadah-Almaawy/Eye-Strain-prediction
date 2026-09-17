@@ -1,21 +1,20 @@
-# Predicting Eye Strain from Digital Device Usage 👁️💻
+# Predicting Eye Strain from Digital Device Usage 
 
 A machine learning project that predicts whether a person is likely to experience **digital eye strain** based on their device-usage habits and behavioral, environmental, and physiological factors — deployed as a live interactive web app.
 
-**🔗 Live Demo:** https://eye-strain-prediction-mfaez2gcqwxcqfz8yklumt.streamlit.app/
+**Live Demo:** https://eye-strain-prediction-mfaez2gcqwxcqfz8yklumt.streamlit.app/
 
 > Course project — DS323: Machine Learning, 2nd Semester 2025–2026.
-> This was a **group project**; this repository reflects my contribution to the shared codebase.
 
-## 📌 Problem Statement
+## Problem Statement
 
 Digital eye strain is a growing issue caused by prolonged use of smartphones, computers, and other digital devices. Early prediction of eye strain risk can help people adjust their habits before the condition worsens.
 
-## 🎯 Objective
+## Objective
 
 Build and compare machine learning models that classify whether a person is experiencing eye strain (`1`) or not (`0`), based on features such as screen time, device type, environmental lighting, blink rate, and other usage patterns — then deploy the best model as an interactive app.
 
-## 🗂️ Project Workflow
+## Project Workflow
 
 1. **Data Understanding & Cleaning** — inspecting the dataset, checking for missing values and outliers (Shapiro-Wilk normality test).
 2. **Exploratory Data Analysis (EDA)** — visualizing distributions and relationships between features and the target variable.
@@ -28,7 +27,7 @@ Build and compare machine learning models that classify whether a person is expe
 6. **Model Evaluation** — accuracy, precision, recall, f1-score, and confusion matrices.
 7. **Deployment** — the best model was saved (`eye_strain_model.pkl`) and wrapped in a **Streamlit** app for interactive, real-time predictions.
 
-## 📊 Results
+## Results
 
 | Model | Test Accuracy (tuned) |
 |---|---|
@@ -44,7 +43,7 @@ The deployed app lets a user enter their own device-usage habits (screen time, s
 
 **Try it:** https://eye-strain-prediction-mfaez2gcqwxcqfz8yklumt.streamlit.app/
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - pandas, numpy — data handling
@@ -54,7 +53,7 @@ The deployed app lets a user enter their own device-usage habits (screen time, s
 - joblib — model persistence
 - Streamlit — web app deployment
 
-## 🚀 Running the Project
+## Running the Project
 
 **Notebook (model training & analysis):**
 ```bash
@@ -69,7 +68,7 @@ jupyter notebook eye_strain_prediction.ipynb
 streamlit run app.py
 ```
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── eye_strain_prediction.ipynb   # full EDA, modeling & evaluation notebook
@@ -79,10 +78,7 @@ streamlit run app.py
 └── requirements.txt
 ```
 
-## 👥 Team & Contribution
 
-This was a group project completed as part of the DS323 Machine Learning course. My role focused on **[fill in your specific contribution, e.g. "model building, tuning & Streamlit deployment"]**.
-
-## 📄 License
+## License
 
 This project is shared for educational and portfolio purposes.
