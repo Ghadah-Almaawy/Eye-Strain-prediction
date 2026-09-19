@@ -10,15 +10,12 @@ st.write("This application predicts eye strain based on digital device usage hab
 
 st.header("User Inputs")
 
-feature_columns = data.drop("eye_strain", axis=1).columns
+feature_columns = data.drop(["eye_strain", "ID"], axis=1).columns
 
 user_input = {}
 
 for col in feature_columns:
-    if col == "ID":
-        user_input[col] = st.number_input("ID", min_value=1, value=1)
-
-    elif col == "age":
+    if col == "age":
         user_input[col] = st.slider("Age", 10, 80, 20)
 
     elif col == "phone_usage_hours":
