@@ -2,7 +2,7 @@
 
 A machine learning project that predicts whether a person is likely to experience **digital eye strain** based on their device-usage habits and behavioral, environmental, and physiological factors — deployed as a live interactive web app.
 
-**Live Demo:** https://GhadahAlmaawy.github.io/eye-strain-prediction/
+**Live Demo:**  https://ghadah-almaawy.github.io/Eye-Strain-prediction/
 
 > Course project — DS323: Machine Learning, 2nd Semester 2025–2026.
 > This was a **group project**; this repository reflects my contribution to the shared codebase.
