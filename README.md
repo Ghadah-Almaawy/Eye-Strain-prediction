@@ -42,8 +42,7 @@ Logistic Regression and the tuned Decision Tree performed best on this dataset, 
 
 The deployed app lets a user enter their own device-usage habits (screen time, sleep hours, break frequency, brightness, etc.) through sliders and dropdowns, and get an instant **Low / High Eye Strain** prediction.
 
-**Try it:** https://GhadahAlmaawy.github.io/eye-strain-prediction/
-
+**Try it:** https://ghadah-almaawy.github.io/Eye-Strain-prediction/
 > This static version runs the trained Logistic Regression model directly in the browser (no server needed). A Streamlit version of the same app (`app.py`) is also included in this repo and can be run locally or deployed separately.
 
 ##  Tech Stack
