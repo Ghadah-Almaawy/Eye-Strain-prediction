@@ -86,7 +86,6 @@ streamlit run app.py
 
 ```
 ├── eye_strain_prediction.ipynb   # EDA, modeling, evaluation, and model export
-├── eye_strain_data.csv           # encoded questionnaire dataset
 ├── eye_strain_model.pkl          # final tuned Logistic Regression model
 ├── app.py                        # Streamlit web app
 └── requirements.txt
