@@ -2,7 +2,7 @@
 
 A machine learning project that predicts whether a person is likely to experience **digital eye strain** based on their device usage habits and behavioral, environmental, and physiological factors, deployed as a live interactive web app.
 
-**Live App:** https://eye-strain-prediction-mfaez2gcqwxcqfz8yklumt.streamlit.app/
+**Live App:** https://ghadah-eye-strain.streamlit.app/
 
 > Course project for DS323: Machine Learning, 2nd Semester 2025–2026.
 > This was a **group project**; this repository reflects my contribution to the shared codebase.
@@ -52,7 +52,7 @@ Users answer the same questions as the original survey through dropdown menus an
 
 The app (`app.py`) loads the tuned Logistic Regression model from `eye_strain_model.pkl` and is deployed on Streamlit Community Cloud.
 
-**Try it:** https://eye-strain-prediction-mfaez2gcqwxcqfz8yklumt.streamlit.app/
+**Try it:** https://ghadah-eye-strain.streamlit.app/
 
 ## Tech Stack
 
