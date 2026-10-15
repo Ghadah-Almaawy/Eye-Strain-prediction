@@ -103,4 +103,6 @@ This was a group project completed as part of the DS323 Machine Learning course.
 
 ## License
 
-This project is shared for educational and portfolio purposes.
+© 2026 Ghadah Almaawy. The analysis and model come from a group course project (DS323); the web app (app.py) and its deployment were built individually by me. All rights reserved.
+
+This repository is shared publicly for viewing as part of my portfolio. Copying, redistributing, or submitting this code or analysis, in whole or in part, as your own work is not permitted without written permission.
